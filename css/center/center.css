@@ -1,0 +1,81 @@
+.div1 .parent {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  border: 1px solid #000;
+}
+.div1 .child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  margin-left: -50px;
+  margin-top: -50px;
+  background-color: aquamarine;
+}
+
+.div2 .parent {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  border: 1px solid #000;
+}
+.div2 .child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  transform: translate(-50%, -50%);
+  background-color: aquamarine;
+}
+
+.div3 .parent {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  border: 1px solid #000;
+}
+.div3 .child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.div4 .parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.div4 .child {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.div6 .parent {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  height: 400px;
+  width: 400px;
+  border: 1px solid #000;
+}
+
+.div6 .child {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+}

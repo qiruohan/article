@@ -1,0 +1,136 @@
+.div1 .header {
+  width: 100%;
+  height: 30px;
+  background: red;
+}
+
+.div1 .content {
+  overflow: hidden;
+  padding: 0 100px;
+}
+
+.div1 .footer {
+  width: 100%;
+  height: 30px;
+  background: red;
+}
+
+.div1 .middle {
+  position: relative;
+  width: 100%;
+  float: left;
+  height: 80px;
+  background: green;
+}
+
+.div1 .left {
+  position: relative;
+  width: 100px;
+  float: left;
+  left: -100px;
+  height: 80px;
+  margin-left: -100%;
+  background: yellow;
+}
+
+.div1 .right {
+  position: relative;
+  width: 100px;
+  float: left;
+  right: -100px;
+  height: 80px;
+  margin-left: -100px;
+  background: pink;
+}
+
+.div2 .header {
+  width: 100%;
+  height: 30px;
+  background: red;
+}
+
+.div2 .content {
+  overflow: hidden;
+}
+
+.div2 .footer {
+  width: 100%;
+  height: 30px;
+  background: red;
+}
+
+.div2 .middle {
+  width: 100%;
+  float: left;
+}
+
+.div2 .inner-middle {
+  width: 100%;
+  height: 80px;
+
+  background: green;
+}
+
+.div2 .left {
+  width: 100px;
+  float: left;
+  height: 80px;
+  margin-left: -100%;
+  background: yellow;
+}
+
+.div2 .right {
+  width: 100px;
+  float: left;
+  height: 80px;
+  margin-left: -100px;
+  background: pink;
+}
+
+.div3 .left {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.div3 .right {
+  margin-left: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+.div4 {
+  position: relative;
+  width: 100%;
+  height: 100px;
+}
+.div4 .left {
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-color: red;
+}
+
+.div4 .right {
+  margin-left: 100px;
+  /* width: 100%; */
+  height: 100%;
+  background-color: green;
+}
+
+.div5 {
+  display: flex;
+  height: 100px;
+}
+.div5 .left {
+  width: 100px;
+  height: 100%;
+  background-color: red;
+}
+
+.div5 .right {
+  flex: 1;
+  height: 100%;
+  background-color: green;
+}

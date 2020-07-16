@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>text</title>
+    <link rel="stylesheet" type="text/css" href="./center.css" />
+  </head>
+
+  <body>
+    <!-- 绝对定位 + margin -->
+    <!-- 需要父级有具体宽高，且要知道宽高的具体值 -->
+    <div class="div1">
+      <div class="parent">
+        <div class="child">1</div>
+      </div>
+    </div>
+
+    <!-- transform -->
+    <!-- 不需要父级有具体宽高，但是兼容性不是特别好 -->
+    <br />
+    <div class="div2">
+      <div class="parent">
+        <div class="child">1</div>
+      </div>
+    </div>
+
+    <!-- 绝对定位 -->
+    <!-- 需要父级有具体宽高，但是不需要知道宽高的具体值 -->
+    <br />
+    <div class="div3">
+      <div class="parent">
+        <div class="child">1</div>
+      </div>
+    </div>
+
+    <!-- flex -->
+    <!-- 更简单了，但是也是兼容性不是特别好 -->
+    <br />
+    <div class="div4">
+      <div class="parent">
+        <div class="child">1</div>
+      </div>
+    </div>
+
+    <!-- javascript -->
+    <br />
+    <div class="div5">
+      <div class="parent">
+        <div class="child" id="box"></div>
+      </div>
+    </div>
+
+    <script>
+      let html = document.documentElement
+      winW = html.clientWidth
+      winH = html.clientHeight
+      boxW = box.offsetWidth
+      boxH = box.offsetHeight
+      box.style.position = 'absolute'
+      box.style.left = (winW - boxW) / 2 + 'px'
+      box.style.top = (winH - boxH) / 2 + 'px'
+    </script>
+
+    <!-- table-cell -->
+    <!-- 要求父级有固定宽高，不能使用百分比 -->
+    <br />
+    <div class="div6">
+      <div class="parent">
+        <div class="child"></div>
+      </div>
+    </div>
+  </body>
+</html>
