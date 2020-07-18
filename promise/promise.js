@@ -21,8 +21,6 @@ const resolvePromise = (promise2, x, resolve, reject) => {
           reject(r);
         });
       } else {
-        if (called) return;
-        called = true;
         resolve(x);
       }
     } catch (e) {
