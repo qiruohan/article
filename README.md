@@ -9,3 +9,4 @@
 2. [重排(reflow)和重绘(repaint)](https://juejin.im/post/5e621f636fb9a07c8679083e)
 3. [Javascript经典面试之深拷贝VS浅拷贝](https://juejin.im/post/5eedc8046fb9a058a0483601)
 4. [面试官：“你能手写一个 Promise 吗”](https://juejin.im/post/5f0ee634f265da22d95db408)
+5. [「面试必会」中高级前端必会的手写面试题(一)](https://juejin.im/post/6859026583533912072)
