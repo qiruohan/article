@@ -249,6 +249,7 @@ Array.prototype.forEach = function(fn) {
     fn(this[i], i, this);
   }
 };
+
 // 测试：
 [1, 2, 3].forEach((item, index, array) => {
   // 1 0 [1, 2, 3]
@@ -271,6 +272,7 @@ Array.prototype.reduce = function(fn, prev) {
   }
   return prev;
 };
+
 // 测试
 let total = [1, 2, 3].reduce((prev, next, currentIndex, array) => {
   return prev + next;
@@ -311,6 +313,7 @@ function create(proto) {
     Fn.prototype.constructor = Fn;
     return new Fn();
 };
+
 // 测试
 let demo = {
     c : '123'
@@ -371,6 +374,7 @@ const throttle = (fn, delay = 500) => {
     }, delay);
   };
 };
+
 // 测试
 const throttleFn = throttle(fn, 300);
 
@@ -386,6 +390,7 @@ const debounce = (fn, delay) => {
     }, delay);
   };
 };
+
 // 测试
 const debounceFn = debounce(fn, 300);
 
@@ -485,7 +490,7 @@ console.log(pipe(splitString, count)('hello cherry')); // 2
 // </body>
 // </html>
 
-
+// ===== my-template.js =====
 const fs = require('fs');
 const path = require('path');
 
